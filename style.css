@@ -10,8 +10,8 @@ header {
 }
 
 header img  {
-    width: 10%;
-    padding: 0 0 15px 25px;
+    width: 15%;
+    padding: 20px 0 15px 25px;
 }
 
 main {
@@ -45,14 +45,14 @@ main {
 
 .navegation a {
     font-family: "Nokora", sans-serif;
-    color:#150791;
+    color:#0b006d;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .navegation a:hover {
-    color: #557be2;
+    color: #0219eb;
     text-decoration: underline;
 }
 
@@ -63,7 +63,7 @@ main {
 .content h1{
     border-bottom: 2px solid #e9e9e9;
     line-height: 2;
-    padding: 20px;
+    padding: 20px 0 0 20px;
     font-family: "Nokora", sans-serif;
     font-size: 40px;
 }
@@ -78,9 +78,13 @@ main {
 }
 
 .content p {
-    padding: 10px 20px 0 20px;
+    padding: 15px 20px 0 20px;
     font-family: "Nokora", sans-serif;
     font-size: 16px;
+}
+
+.content p:last-of-type {
+    padding-bottom: 25px;
 }
 
 .informacoes {
@@ -126,6 +130,10 @@ main {
     width: 400px;
 }
 
+.cartaz__image p {
+    padding-bottom: 50px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -135,9 +143,9 @@ footer {
 }
 
 footer h2 {
-    font-size: 18px;
+    font-size: 15px;
     color: #000000;
     font-family: "Lexend", serif;
-    font-weight: 800;
+    font-weight: 200;
     text-align: center;
 }
